@@ -1,0 +1,16 @@
+{
+    "customCommands":[
+    {
+        "command":"play",
+        "response" :"game"
+    },
+    {
+        "command":"ping",
+        "response" :"pong"
+    },
+    {
+        "command":"something",
+        "response":"Nothing to comment"
+    }
+    ]
+}

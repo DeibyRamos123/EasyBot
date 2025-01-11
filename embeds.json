@@ -1,0 +1,25 @@
+{
+    "customEmbed": [
+        {
+            "command": "help-custom",
+            "title": "Welcome to the easiest bot creation system",
+            "description": "user guide in ",
+            "thumbnail": "https://i.pinimg.com/736x/a3/c7/59/a3c7594259bc12424d2d8af5e4119e70.jpg",
+            "embedColor": "0x9370DB",
+            "author": false,
+            "image": "https://i.pinimg.com/736x/f0/d5/da/f0d5dac1f376b348b3ba0f8d1c15708e.jpg"
+        },
+        {
+            "command": "test",
+            "title": "Thanks for using my EasyBot system",
+            "description":"nice",
+            "embedColor": "0xff0000"
+        }, 
+	{
+		"command":"hi",
+		"title":"Hello world by bot",
+		"description":"Hello world",
+		"embedColor":"0xff000"
+	}
+    ]
+}
