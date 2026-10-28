@@ -3,8 +3,7 @@
 ## For start
 **open a terminal and put**
 - install Node.js in your device
-- npm i discord.js
-- npm i nodemon
+- npm i
 
 ## Description
 Easybot is a discord bot for people who want to create a Discord bot but don't
