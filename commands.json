@@ -1,16 +1,20 @@
 {
     "customCommands":[
     {
-        "command":"play",
-        "response" :"game"
+        "command":"locura",
+        "response" :"https://i.makeagif.com/media/11-05-2024/hPB0te.gif"
     },
     {
-        "command":"ping",
-        "response" :"pong"
+        "command":"Gotica",
+        "response" :"DONDE!!?"
     },
     {
-        "command":"something",
-        "response":"Nothing to comment"
+        "command":"basta",
+        "response" :"https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmJwcmg4NTVqdXhzdjg3djE4cDl6dzdndm8wY2w3dzFscm1jeHYxbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eONKhEa5DLSFuvXf1s/giphy.gif"
+    },
+    {
+        "command":"tsundere",
+        "response":"https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWZlOTcwaGlwYTZyOHE3OG1kcmo3anI5Y2tlNGU1NmQ2OTd4ZTcwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y1tVEitC59QTmPGTPx/giphy.gif"
     }
     ]
 }

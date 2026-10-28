@@ -1,25 +1,135 @@
 {
     "customEmbed": [
         {
-            "command": "help-custom",
-            "title": "Welcome to the easiest bot creation system",
-            "description": "user guide in ",
-            "thumbnail": "https://i.pinimg.com/736x/a3/c7/59/a3c7594259bc12424d2d8af5e4119e70.jpg",
+            "command": "help-music",
+            "title": "🎵 Menú de Comandos - Reproductor de Música",
+            "description": "¡Disfruta de tu música favorita en el servidor! Aquí tienes la lista de comandos disponibles y cómo usarlos:",
             "embedColor": "0x9370DB",
+            "image": "https://i.pinimg.com/originals/c1/d0/39/c1d0398a61210488595d5325d759a8b5.gif",
             "author": false,
-            "image": "https://i.pinimg.com/736x/f0/d5/da/f0d5dac1f376b348b3ba0f8d1c15708e.jpg"
+            "fields": [
+                {
+                    "name": "▶️ !play <canción / link>",
+                    "value": "Reproduce audio en tu canal de voz. Puedes usar:\n• **Nombre:** `!play Deftones Cherry Waves`\n• **YouTube:** Canciones individuales o playlists completas.\n• **Spotify:** Canciones individuales *(las playlists de Spotify no están soportadas por el momento)*.",
+                    "inline": false
+                },
+                {
+                    "name": "⏭️ !skip",
+                    "value": "Pasa a la siguiente canción de la cola de reproducción.",
+                    "inline": true
+                },
+                {
+                    "name": "⏹️ !stop",
+                    "value": "Detiene la música, vacía la cola y desconecta al bot del canal.",
+                    "inline": true
+                }
+            ],
+            "footer": {
+                "text": "Tip: Asegúrate de estar unido a un canal de voz antes de usar los comandos."
+            }
         },
         {
-            "command": "test",
-            "title": "Thanks for using my EasyBot system",
-            "description":"nice",
-            "embedColor": "0xff0000"
-        }, 
-	{
-		"command":"hi",
-		"title":"Hello world by bot",
-		"description":"Hello world",
-		"embedColor":"0xff000"
-	}
+            "command": "redes",
+            "title": "🌐 Mis Redes Sociales",
+            "description": "¡Sígueme en mis plataformas para estar al tanto de todo!",
+            "thumbnail": "https://files.kick.com/images/user/42375609/profile_image/conversion/4651341b-79dd-42ae-90e2-b86c1bb75761-medium.webp",
+            "image": "https://i.pinimg.com/originals/1d/0c/86/1d0c866e2512b388bda5bf31ee9903b6.gif",
+            "embedColor": "0x57E389",
+            "author": false,
+            "fields": [
+                {
+                    "name": "🎬 YouTube",
+                    "value": "[Ver canal](https://www.youtube.com/@nosoybitter)",
+                    "inline": true
+                },
+                {
+                    "name": "🎵 TikTok",
+                    "value": "[Ver perfil](https://www.tiktok.com/@nosoybitter)",
+                    "inline": true
+                },
+                {
+                    "name": "🎮 Steam",
+                    "value": "[Ver perfil](https://steamcommunity.com/id/nosoybitter/)",
+                    "inline": true
+                },
+                {
+                    "name": "🐦 X (Twitter)",
+                    "value": "[Seguir](https://x.com/bittxrr)",
+                    "inline": true
+                },
+                {
+                    "name": "🟢Kick",
+                    "value": "[Seguir](https://kick.com/imnotbitter)",
+                    "inline": true
+                },
+                {
+                    "name": "⬛ Roblox",
+                    "value": "[Añadir](https://www.roblox.com/users/1055049652/profile)",
+                    "inline": true
+                }
+            ],
+            "footer": {
+                "text": "¡Gracias por el apoyo! 💜"
+            }
+        },
+        {
+            "command": "ernnoa",
+            "title": "🌐 Redes Sociales",
+            "description": "¡Sígue a mi pana!",
+            "thumbnail": "https://i.pinimg.com/736x/74/a5/ae/74a5aed4ebeae34bcb8eecf78d56f550.jpg",
+            "image": "https://i.pinimg.com/originals/f8/30/48/f8304826cf888827713d5726b921f9e3.gif",
+            "embedColor": "0xff0000",
+            "author": false,
+            "fields": [
+                {
+                    "name": "🎮 Steam",
+                    "value": "[Ver perfil](https://steamcommunity.com/profiles/76561199056245659)",
+                    "inline": true
+                },
+                {
+                    "name": "⬛ Roblox",
+                    "value": "[Añadir](https://www.roblox.com/users/358985675/profile)",
+                    "inline": true
+                },
+                {
+                    "name": "🟣Twitch",
+                    "value": "[Seguir](https://www.twitch.tv/ernnoa)",
+                    "inline": true
+                }
+            ]
+        },
+        {
+            "command": "help",
+            "title": "📖 Ayuda - Comandos del bot",
+            "description": "Aquí tienes todo lo que puedo hacer. Los parámetros entre `<>` son obligatorios y los de `[]` son opcionales.",
+            "embedColor": "0x5865F2",
+            "image": "https://i.pinimg.com/originals/f5/e3/e1/f5e3e13d16120d08bed738fe449d4dcd.gif",
+            "author": false,
+            "fields": [
+                {
+                    "name": "🎵 Música",
+                    "value": "`!play <canción / link>` → Reproduce o agrega a la cola (YouTube, Spotify o búsqueda por nombre)\n`!skip` → Salta la canción actual\n`!queue` o `!cola` → Muestra la cola\n`!stop` o `!leave` → Detiene todo y me saca del canal",
+                    "inline": false
+                },
+                {
+                    "name": "🛠️ Comandos personalizados",
+                    "value": "`!addcmd <nombre> <respuesta>` → Crea un comando de texto\n`!addembed <cmd> | <título> | <descripción> | [thumbnail] | [imagen] | [color] | [author:si/no]` → Crea un embed\n`!commands` o `!comandos` → Lista los comandos y embeds creados",
+                    "inline": false
+                },
+                {
+                    "name": "⚙️ Configuración",
+                    "value": "`!prefix` → Muestra el prefijo actual\n`!setprefix <nuevo>` → Cambia el prefijo",
+                    "inline": false
+                },
+                {
+                    "name": "📚 Más ayuda",
+                    "value": "`!help-music` → Guía detallada de música\n`!redes` → Redes sociales",
+                    "inline": false
+                }
+            ],
+            "footer": {
+                "text": "Tip: entra a un canal de voz antes de usar los comandos de música."
+            }
+        }
     ]
 }
